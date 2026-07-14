@@ -1,0 +1,27 @@
+$ gcc -Wall -Wextra -std=c11 -o max_heap max_heap.c
+
+$ ./max_heap
+=== Max-Heap ===
+1.Insert  2.DeleteMax  3.Display  4.Exit
+
+Enter choice: Value: Inserted 50
+
+Enter choice: Value: Inserted 30
+
+Enter choice: Value: Inserted 40
+
+Enter choice: Value: Inserted 10
+
+Enter choice: Value: Inserted 20
+
+Enter choice: Max-Heap array: 50 30 40 10 20 
+
+Enter choice: Deleted max = 50
+
+Enter choice: Deleted max = 40
+
+Enter choice: Deleted max = 30
+
+Enter choice: Max-Heap array: 20 10 
+
+Enter choice: Exiting...

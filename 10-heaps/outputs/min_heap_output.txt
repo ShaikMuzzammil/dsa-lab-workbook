@@ -1,0 +1,27 @@
+$ gcc -Wall -Wextra -std=c11 -o min_heap min_heap.c
+
+$ ./min_heap
+=== Min-Heap ===
+1.Insert  2.DeleteMin  3.Display  4.Exit
+
+Enter choice: Value: Inserted 50
+
+Enter choice: Value: Inserted 30
+
+Enter choice: Value: Inserted 40
+
+Enter choice: Value: Inserted 10
+
+Enter choice: Value: Inserted 20
+
+Enter choice: Min-Heap array: 10 20 40 50 30 
+
+Enter choice: Deleted min = 10
+
+Enter choice: Deleted min = 20
+
+Enter choice: Deleted min = 30
+
+Enter choice: Min-Heap array: 40 50 
+
+Enter choice: Exiting...

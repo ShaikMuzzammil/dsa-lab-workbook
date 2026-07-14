@@ -1,0 +1,21 @@
+$ gcc -Wall -Wextra -std=c11 -o stack_list stack_list.c
+
+$ ./stack_list
+=== Stack using Linked List ===
+1.Push  2.Pop  3.Peek  4.Display  5.Exit
+
+Enter choice: Value: Pushed 5
+
+Enter choice: Value: Pushed 10
+
+Enter choice: Value: Pushed 15
+
+Enter choice: Stack (top -> bottom): 15 10 5 
+
+Enter choice: Popped 15
+
+Enter choice: Top element = 10
+
+Enter choice: Stack (top -> bottom): 10 5 
+
+Enter choice: Exiting...

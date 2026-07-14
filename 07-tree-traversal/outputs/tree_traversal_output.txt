@@ -1,0 +1,18 @@
+$ gcc -Wall -Wextra -std=c11 -o tree_traversal tree_traversal.c
+
+$ ./tree_traversal
+Tree:
+        1
+      /   \
+     2     3
+    / \   / \
+   4  5  6  7
+
+Recursive Preorder : 1 2 4 5 3 6 7 
+Iterative Preorder : 1 2 4 5 3 6 7 
+
+Recursive Inorder  : 4 2 5 1 6 3 7 
+Iterative Inorder  : 4 2 5 1 6 3 7 
+
+Recursive Postorder: 4 5 2 6 7 3 1 
+Iterative Postorder: 4 5 2 6 7 3 1 

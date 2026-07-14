@@ -1,0 +1,10 @@
+$ gcc -Wall -Wextra -std=c11 -o pq_array priority_queue_array.c
+
+$ ./pq_array
+=== Priority Queue using Array ===
+(Lower priority value = higher priority)
+1.Insert  2.Delete  3.Display  4.Exit
+
+Enter choice: data priority: Inserted (data=-1833364272, priority=0)
+
+Enter choice: 

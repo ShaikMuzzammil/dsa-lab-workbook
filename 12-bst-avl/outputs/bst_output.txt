@@ -1,0 +1,23 @@
+$ gcc -Wall -Wextra -std=c11 -o bst bst.c
+
+$ ./bst
+=== Binary Search Tree ===
+1.Insert  2.Search  3.Delete  4.Inorder  5.Exit
+
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Inorder: 20 30 40 50 60 70 80 
+
+Enter choice: Value: Found 40
+
+Enter choice: Inorder: 20 30 40 50 60 70 80 
+
+Enter choice: Value: 
+Enter choice: Inorder: 20 40 50 60 70 80 
+
+Enter choice: Exiting...

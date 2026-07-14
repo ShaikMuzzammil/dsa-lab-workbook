@@ -1,0 +1,16 @@
+$ gcc -Wall -Wextra -std=c11 -o adt_bank_account adt_bank_account.c
+
+$ ./adt_bank_account
+=== Bank Account ADT ===
+Creating a new account first.
+Enter Account Number: Enter Name: Enter Initial Balance: Account created: 101 | Muzzammil | Balance: 1000.00
+
+1. Deposit  2. Withdraw  3. Check Balance  4. Exit
+
+Enter choice: Amount to deposit: Deposited 500.00 | Updated Balance: 1500.00
+
+Enter choice: Amount to withdraw: Withdrawn 200.00 | Updated Balance: 1300.00
+
+Enter choice: Account No: 101 | Holder: Muzzammil | Balance: 1300.00
+
+Enter choice: Exiting...

@@ -1,0 +1,4 @@
+$ gcc -Wall -Wextra -std=c11 -o dag_topo dag_topo_sort.c
+
+$ ./dag_topo
+(program timed out after 10s)

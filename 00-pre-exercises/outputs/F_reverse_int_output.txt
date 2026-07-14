@@ -1,0 +1,4 @@
+$ gcc -Wall -Wextra -std=c11 -o F_reverse_int F_reverse_integer.c
+
+$ ./F_reverse_int
+Enter an integer: Reversed = 54321

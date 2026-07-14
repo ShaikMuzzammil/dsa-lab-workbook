@@ -1,0 +1,4 @@
+$ gcc -Wall -Wextra -std=c11 -o C_sum_array C_sum_array.c
+
+$ ./C_sum_array
+Enter number of elements: Enter 5 elements: Sum = 150

@@ -1,0 +1,17 @@
+$ gcc -Wall -Wextra -std=c11 -o avl avl.c
+
+$ ./avl
+=== AVL Tree ===
+1.Insert  2.Preorder  3.Inorder  4.Exit
+
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Value: 
+Enter choice: Preorder: 30 20 10 25 40 50 
+
+Enter choice: Inorder : 10 20 25 30 40 50 
+
+Enter choice: Exiting...

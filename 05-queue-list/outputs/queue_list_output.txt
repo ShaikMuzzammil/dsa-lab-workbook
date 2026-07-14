@@ -1,0 +1,25 @@
+$ gcc -Wall -Wextra -std=c11 -o queue_list queue_list.c
+
+$ ./queue_list
+=== Queue using Linked List ===
+1.Enqueue  2.Dequeue  3.Front  4.Rear  5.Display  6.Exit
+
+Enter choice: Value: Enqueued 100
+
+Enter choice: Value: Enqueued 200
+
+Enter choice: Value: Enqueued 300
+
+Enter choice: Queue (front -> rear): 100 200 300 
+
+Enter choice: Front = 100
+
+Enter choice: Rear = 300
+
+Enter choice: Dequeued 100
+
+Enter choice: Dequeued 200
+
+Enter choice: Queue (front -> rear): 300 
+
+Enter choice: Exiting...

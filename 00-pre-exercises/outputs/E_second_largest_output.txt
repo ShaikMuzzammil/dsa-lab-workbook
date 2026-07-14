@@ -1,0 +1,4 @@
+$ gcc -Wall -Wextra -std=c11 -o E_second_largest E_second_largest.c
+
+$ ./E_second_largest
+Enter number of elements (>= 2): Enter 6 elements: Second largest = 56

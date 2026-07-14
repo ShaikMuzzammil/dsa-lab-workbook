@@ -1,0 +1,27 @@
+$ gcc -Wall -Wextra -std=c11 -o skip_list skip_list.c
+
+$ ./skip_list
+=== Skip List ===
+1.Insert  2.Delete  3.Search  4.Display  5.Exit
+
+Enter choice: Value: Inserted 10 (level 0)
+
+Enter choice: Value: Inserted 20 (level 1)
+
+Enter choice: Value: Inserted 15 (level 0)
+
+Enter choice: Value: Inserted 5 (level 0)
+
+Enter choice: Skip List (level 1):
+  L1: 20 -> NULL
+  L0: 5 -> 10 -> 15 -> 20 -> NULL
+
+Enter choice: Value: Found 15
+
+Enter choice: Value: Deleted 10
+
+Enter choice: Skip List (level 1):
+  L1: 20 -> NULL
+  L0: 5 -> 15 -> 20 -> NULL
+
+Enter choice: Exiting...

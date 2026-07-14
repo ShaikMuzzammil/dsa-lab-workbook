@@ -1,0 +1,23 @@
+$ gcc -Wall -Wextra -std=c11 -o singly_ll singly_linked_list.c
+
+$ ./singly_ll
+=== Singly Linked List ===
+1.InsBegin 2.InsEnd 3.InsPos 4.DelBegin 5.DelEnd 6.DelPos 7.Display 8.Exit
+
+Enter choice: Value: Inserted 10 at beginning
+
+Enter choice: Value: Inserted 20 at beginning
+
+Enter choice: Value: Inserted 30 at beginning
+
+Enter choice: Value Pos: Inserted 99 at position 2
+
+Enter choice: List: 30 -> 99 -> 20 -> 10 -> NULL
+
+Enter choice: Deleted 30 from beginning
+
+Enter choice: Pos: Deleted 20 from position 2
+
+Enter choice: List: 99 -> 10 -> NULL
+
+Enter choice: Exiting...

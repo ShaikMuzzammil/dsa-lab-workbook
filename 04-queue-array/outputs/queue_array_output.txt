@@ -1,0 +1,25 @@
+$ gcc -Wall -Wextra -std=c11 -o queue_array queue_array.c
+
+$ ./queue_array
+=== Queue using Array (MAX=5) ===
+1.Enqueue  2.Dequeue  3.Front  4.Rear  5.Display  6.Exit
+
+Enter choice: Value: Enqueued 10
+
+Enter choice: Value: Enqueued 20
+
+Enter choice: Value: Enqueued 30
+
+Enter choice: Queue (front -> rear): 10 20 30 
+
+Enter choice: Front = 10
+
+Enter choice: Rear = 30
+
+Enter choice: Dequeued 10
+
+Enter choice: Dequeued 20
+
+Enter choice: Queue (front -> rear): 30 
+
+Enter choice: Exiting...

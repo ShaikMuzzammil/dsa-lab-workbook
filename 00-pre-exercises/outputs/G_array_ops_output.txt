@@ -1,0 +1,17 @@
+$ gcc -Wall -Wextra -std=c11 -o G_array_ops G_array_operations.c
+
+$ ./G_array_ops
+=== Array ADT Menu ===
+1. Insert  2. Delete  3. Search  4. Display  5. Exit
+
+Enter choice: Enter element and position: Inserted
+
+Enter choice: Enter element and position: Inserted
+
+Enter choice: Enter element and position: Inserted
+
+Enter choice: 10 20 30 
+
+Enter choice: Enter position to delete: Deleted
+
+Enter choice: Exiting...

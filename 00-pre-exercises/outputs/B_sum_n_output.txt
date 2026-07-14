@@ -1,0 +1,4 @@
+$ gcc -Wall -Wextra -std=c11 -o B_sum_n B_sum_n_natural_numbers.c
+
+$ ./B_sum_n
+Enter a positive integer N: Sum of first 100 natural numbers is: 5050

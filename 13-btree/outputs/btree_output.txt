@@ -1,0 +1,5 @@
+$ gcc -Wall -Wextra -std=c11 -o btree btree.c
+
+$ ./btree
+
+[stderr] free(): double free detected in tcache 2

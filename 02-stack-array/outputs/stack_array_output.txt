@@ -1,0 +1,27 @@
+$ gcc -Wall -Wextra -std=c11 -o stack_array stack_array.c
+
+$ ./stack_array
+=== Stack using Array (MAX=5) ===
+1.Push  2.Pop  3.Peek  4.Display  5.Exit
+
+Enter choice: Value: Pushed 10
+
+Enter choice: Value: Pushed 20
+
+Enter choice: Value: Pushed 30
+
+Enter choice: Value: Pushed 40
+
+Enter choice: Value: Pushed 50
+
+Enter choice: Value: Stack Overflow
+
+Enter choice: Stack (top -> bottom): 50 40 30 20 10 
+
+Enter choice: Popped 50
+
+Enter choice: Top element = 40
+
+Enter choice: Stack (top -> bottom): 40 30 20 10 
+
+Enter choice: Exiting...

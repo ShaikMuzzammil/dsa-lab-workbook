@@ -1,0 +1,48 @@
+# Compiled binaries (no extension, same name as the .c file)
+# Each program builds a binary with the same basename in its folder.
+# Ignore all of them so they never get committed.
+
+# Pattern: any file in a subfolder that has no extension and is executable
+# is a build artifact. We list them explicitly to be safe.
+
+# Pre-exercise binaries
+/00-pre-exercises/A_print_n
+/00-pre-exercises/B_sum_n
+/00-pre-exercises/C_sum_array
+/00-pre-exercises/D_max_array
+/00-pre-exercises/E_second_largest
+/00-pre-exercises/F_reverse_int
+/00-pre-exercises/G_array_ops
+
+# Main exercise binaries
+/01-adt-bank-account/adt_bank_account
+/02-stack-array/stack_array
+/03-stack-list/stack_list
+/04-queue-array/queue_array
+/05-queue-list/queue_list
+/06-linked-lists/singly_ll
+/06-linked-lists/doubly_ll
+/06-linked-lists/circular_ll
+/06-linked-lists/deque
+/07-tree-traversal/tree_traversal
+/08-binary-tree-level-order/binary_tree_level_order
+/09-priority-queue/pq_array
+/09-priority-queue/pq_list
+/10-heaps/min_heap
+/10-heaps/max_heap
+/11-skip-list/skip_list
+/12-bst-avl/bst
+/12-bst-avl/avl
+/13-btree/btree
+/14-dag-topological-sort/dag_topo
+
+# OS / editor cruft
+.DS_Store
+*.o
+*.a
+*.so
+*.exe
+.vscode/
+.idea/
+*.swp
+*~

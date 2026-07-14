@@ -1,0 +1,17 @@
+$ gcc -Wall -Wextra -std=c11 -o doubly_ll doubly_linked_list.c
+
+$ ./doubly_ll
+=== Doubly Linked List ===
+1.InsertEnd  2.DisplayForward  3.DisplayBackward  4.Exit
+
+Enter choice: Value: Inserted 10 at end
+
+Enter choice: Value: Inserted 20 at end
+
+Enter choice: Value: Inserted 30 at end
+
+Enter choice: Forward : 10 -> 20 -> 30 -> NULL
+
+Enter choice: Backward: 30 -> 20 -> 10 -> NULL
+
+Enter choice: Exiting...

@@ -1,0 +1,10 @@
+$ gcc -Wall -Wextra -std=c11 -o pq_list priority_queue_list.c
+
+$ ./pq_list
+=== Priority Queue using Linked List ===
+(Lower priority value = higher priority)
+1.Insert  2.Delete  3.Display  4.Exit
+
+Enter choice: data priority: Inserted (data=645310080, priority=0)
+
+Enter choice: 
